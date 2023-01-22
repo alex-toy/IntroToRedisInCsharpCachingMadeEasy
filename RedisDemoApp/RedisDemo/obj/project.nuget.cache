@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "Re6DMTYIrn4BxLt3RM9zX4vJTX9SriD/rH5UToA9xOc9tcBhE317nfsd1/a40AjNnce3nsMM0Us90IJaLZDcFw==",
+  "dgSpecHash": "aGWEGgsIydjHG7UMiPC1lqPzb6qRsZsDxdqIzPqEdi3xOBa67EioO1KmEcX9kHf5rUeRsgwVgrCcuiicRiAlSg==",
   "success": true,
   "projectFilePath": "C:\\source\\CsharpLibraries\\IntroToRedisInCsharpCachingMadeEasy\\RedisDemoApp\\RedisDemo\\RedisDemo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\7.0.2\\microsoft.extensions.caching.stackexchangeredis.7.0.2.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\stackexchange.redis\\2.6.90\\stackexchange.redis.2.6.90.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

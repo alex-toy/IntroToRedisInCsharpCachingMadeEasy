@@ -22,7 +22,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/alexviseo/AlexNuget/_packaging/AlexeiDemoFeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/alexviseo/AlexNuget/_packaging/DemoFeed/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -39,6 +41,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.90, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
