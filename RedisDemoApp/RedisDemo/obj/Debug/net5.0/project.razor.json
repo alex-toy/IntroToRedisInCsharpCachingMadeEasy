@@ -124,98 +124,39 @@
         }
       },
       {
-        "HashCode": 1139541842,
+        "HashCode": 160810691,
         "Kind": "Components.Component",
-        "Name": "RedisDemo.App",
+        "Name": "RedisDemo.Shared.NavMenu",
         "AssemblyName": "RedisDemo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RedisDemo.App",
-          "Common.TypeNamespace": "RedisDemo",
-          "Common.TypeNameIdentifier": "App"
-        }
-      },
-      {
-        "HashCode": -1180192972,
-        "Kind": "Components.Component",
-        "Name": "RedisDemo.App",
-        "AssemblyName": "RedisDemo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "RedisDemo.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RedisDemo.App",
-          "Common.TypeNamespace": "RedisDemo",
-          "Common.TypeNameIdentifier": "App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -538977776,
-        "Kind": "Components.Component",
-        "Name": "RedisDemo.Shared.SurveyPrompt",
-        "AssemblyName": "RedisDemo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RedisDemo.Shared.SurveyPrompt",
+          "Common.TypeName": "RedisDemo.Shared.NavMenu",
           "Common.TypeNamespace": "RedisDemo.Shared",
-          "Common.TypeNameIdentifier": "SurveyPrompt"
+          "Common.TypeNameIdentifier": "NavMenu"
         }
       },
       {
-        "HashCode": -1080999995,
+        "HashCode": -1654170196,
         "Kind": "Components.Component",
-        "Name": "RedisDemo.Shared.SurveyPrompt",
+        "Name": "RedisDemo.Shared.NavMenu",
         "AssemblyName": "RedisDemo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "RedisDemo.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "RedisDemo.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RedisDemo.Shared.SurveyPrompt",
+          "Common.TypeName": "RedisDemo.Shared.NavMenu",
           "Common.TypeNamespace": "RedisDemo.Shared",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -326,39 +267,98 @@
         }
       },
       {
-        "HashCode": 160810691,
+        "HashCode": -538977776,
         "Kind": "Components.Component",
-        "Name": "RedisDemo.Shared.NavMenu",
+        "Name": "RedisDemo.Shared.SurveyPrompt",
         "AssemblyName": "RedisDemo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RedisDemo.Shared.NavMenu",
+          "Common.TypeName": "RedisDemo.Shared.SurveyPrompt",
           "Common.TypeNamespace": "RedisDemo.Shared",
-          "Common.TypeNameIdentifier": "NavMenu"
+          "Common.TypeNameIdentifier": "SurveyPrompt"
         }
       },
       {
-        "HashCode": -1654170196,
+        "HashCode": -1080999995,
         "Kind": "Components.Component",
-        "Name": "RedisDemo.Shared.NavMenu",
+        "Name": "RedisDemo.Shared.SurveyPrompt",
         "AssemblyName": "RedisDemo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "RedisDemo.Shared.NavMenu"
+            "TagName": "RedisDemo.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RedisDemo.Shared.NavMenu",
+          "Common.TypeName": "RedisDemo.Shared.SurveyPrompt",
           "Common.TypeNamespace": "RedisDemo.Shared",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1139541842,
+        "Kind": "Components.Component",
+        "Name": "RedisDemo.App",
+        "AssemblyName": "RedisDemo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "RedisDemo.App",
+          "Common.TypeNamespace": "RedisDemo",
+          "Common.TypeNameIdentifier": "App"
+        }
+      },
+      {
+        "HashCode": -1180192972,
+        "Kind": "Components.Component",
+        "Name": "RedisDemo.App",
+        "AssemblyName": "RedisDemo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "RedisDemo.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "RedisDemo.App",
+          "Common.TypeNamespace": "RedisDemo",
+          "Common.TypeNameIdentifier": "App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

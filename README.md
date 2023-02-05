@@ -23,6 +23,7 @@ ping
 select 0
 dbsize
 scan 0
+hgetall <key>
 ```
 
 ### Install packages
@@ -35,3 +36,15 @@ StackExchange.Redis
 <img src="/pictures/fetch_data.png" title="fetch data"  width="800">
 <img src="/pictures/fetch_data2.png" title="fetch data"  width="800">
 <img src="/pictures/fetch_data3.png" title="fetch data"  width="800">
+<img src="/pictures/fetch_data4.png" title="fetch data"  width="800">
+
+
+
+## Azure Redis Cache
+<img src="/pictures/redis_cache.png" title="redis cache"  width="400">
+
+In VS Code, create a secret :
+
+<img src="/pictures/manage_user_secrets.png" title="manage user secrets"  width="300">
+<img src="/pictures/redis_cache2.png" title="redis cache"  width="800">
+<img src="/pictures/redis_cache3.png" title="redis cache"  width="800">
