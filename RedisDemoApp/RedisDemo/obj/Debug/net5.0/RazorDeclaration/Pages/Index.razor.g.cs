@@ -82,6 +82,13 @@ using RedisDemo.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\_Imports.razor"
+using Microsoft.Extensions.Caching.Distributed;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {

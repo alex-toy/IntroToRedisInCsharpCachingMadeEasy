@@ -79,6 +79,13 @@ using RedisDemo.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\_Imports.razor"
+using Microsoft.Extensions.Caching.Distributed;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

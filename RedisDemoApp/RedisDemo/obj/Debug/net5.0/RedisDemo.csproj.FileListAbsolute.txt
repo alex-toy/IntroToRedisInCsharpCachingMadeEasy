@@ -56,3 +56,13 @@ C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\Redis
 C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\obj\Debug\net5.0\RedisDemo.genruntimeconfig.cache
 C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\obj\Debug\net5.0\ref\RedisDemo.dll
 C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\obj\Debug\net5.0\RedisDemo.csproj.CopyComplete
+C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\bin\Debug\net5.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\bin\Debug\net5.0\Pipelines.Sockets.Unofficial.dll
+C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\bin\Debug\net5.0\StackExchange.Redis.dll
+C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

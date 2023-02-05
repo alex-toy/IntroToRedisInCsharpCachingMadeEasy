@@ -30,3 +30,8 @@ scan 0
 Microsoft.Extensions.Caching.StackExchangeRedis
 StackExchange.Redis
 ```
+
+### Fetch Data
+<img src="/pictures/fetch_data.png" title="fetch data"  width="800">
+<img src="/pictures/fetch_data2.png" title="fetch data"  width="800">
+<img src="/pictures/fetch_data3.png" title="fetch data"  width="800">

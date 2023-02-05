@@ -83,8 +83,22 @@ using RedisDemo.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\_Imports.razor"
+using Microsoft.Extensions.Caching.Distributed;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\Pages\FetchData.razor"
 using RedisDemo.Data;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\Pages\FetchData.razor"
+using RedisDemo.Extensions;
 
 #line default
 #line hidden
@@ -98,18 +112,45 @@ using RedisDemo.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\Pages\FetchData.razor"
+#line 49 "C:\source\CsharpLibraries\IntroToRedisInCsharpCachingMadeEasy\RedisDemoApp\RedisDemo\Pages\FetchData.razor"
        
     private WeatherForecast[] forecasts;
+    private string loadLocation = "";
+    private string isCacheData = "";
 
-    protected override async Task OnInitializedAsync()
+    //protected override async Task OnInitializedAsync()
+    //{
+    //    forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+    //}
+
+    private async Task LoadForecast()
     {
-        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+        forecasts = null;
+        loadLocation = null;
+
+        string recordKey = $"WeatherForecast_{DateTime.Now.ToString("yyyyMMdd_hhmm")}";
+
+        forecasts = await cache.GetRecordAsync<WeatherForecast[]>(recordKey);
+
+        if (forecasts is null)
+        {
+            forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+            loadLocation = $"Loaded from API at {DateTime.Now}";
+            isCacheData = "";
+
+            await cache.SetRecordAsync(recordKey, forecasts);
+        }
+        else
+        {
+            loadLocation = $"Loaded from the cache at {DateTime.Now}";
+            isCacheData = "text-danger";
+        }
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IDistributedCache cache { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private WeatherForecastService ForecastService { get; set; }
     }
 }

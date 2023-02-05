@@ -22,5 +22,14 @@ namespace RedisDemo.Extensions
             var jsonData = JsonSerializer.Serialize(data);
             await cache.SetStringAsync(recordId, jsonData, options);
         }
+
+        public static async Task<T> GetRecordAsync<T>(this IDistributedCache cache, string recordId)
+        {
+            string jsonData = await cache.GetStringAsync(recordId);
+
+            if (jsonData == null) return default(T);
+
+            return JsonSerializer.Deserialize<T>(jsonData);
+        }
     }
 }
